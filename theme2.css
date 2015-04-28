@@ -10,6 +10,8 @@ body {
 .btn-group {
 	position: absolute;
 	left: 28%;
+}
+.btn-group:hover {
 	color: red;
 }
 
@@ -18,11 +20,17 @@ p {
 	font-style: Arial;
 	width: 500px;
 	position: relative;
-	left: 30%;
+	left: 28.2%;
+	text-align: center;
 }
 
 h3 {
 	text-align: center;
+}
+
+form {
+  position: absolute;
+  left: 33%;
 }
 
 h4 {
@@ -38,4 +46,8 @@ h4 {
   color: white;
   background-color: #800000;
   border-color: #ccc;
+}
+input[type="submit"] {
+  background-color: #800000;
+  color: white;
 }

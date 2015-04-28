@@ -1,3 +1,43 @@
-p {
-	
+body {
+	background-color: #CCCCCC;
+	font-family: Arial;
+}
+
+.header {
+	text-align: center;
+}
+
+.btn-group {
+	position: absolute;
+	left: 28%;
+}
+.btn-group:hover {
+	color: red;
+}
+
+p { 
+	font-size: 16px;
+	font-style: Arial;
+	width: 500px;
+	position: relative;
+	left: 29%;
+}
+
+h3 {
+	text-align: center;
+}
+
+h4 {
+	color: #800000;
+	font-weight: bold;
+}
+.btn-default {
+  color: white;
+  background-color: #800000;
+  border-color: #ccc;
+}
+.btn-default:hover {
+  color: white;
+  background-color: #800000;
+  border-color: #ccc;
 }

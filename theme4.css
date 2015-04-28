@@ -10,6 +10,8 @@ body {
 .btn-group {
 	position: absolute;
 	left: 28%;
+}
+.btn-group:hover {
 	color: red;
 }
 
@@ -23,10 +25,26 @@ p {
 
 h3 {
 	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: 16px;
+	position: relative;
+	left: 42.6%;
+	color: #800000;
+}
+
+h5 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
 }
 
 h4 {
 	color: #800000;
+	position: relative;
 	font-weight: bold;
 }
 .btn-default {
